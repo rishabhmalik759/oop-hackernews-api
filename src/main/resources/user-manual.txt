@@ -1,0 +1,34 @@
+Manual:
+-------
+
+Syntax : hncli [options] [command] [command-options]
+
+[options]
+--help | -h                 Displays the help page and info on how to use the cli
+--ttl=600                   Sets the time to live value. (Default is 600)
+--clear-cache                 clears the existing cache
+
+[command]
+new-stories                 Displays the newest stories added to hackernews cli
+top-stories                 Displays the top stories added to hackernews cli
+best-stories                Displays the best stories added to hackernews cli
+user=<user>                 When presented alone, displays the user's profile
+show-comments=<story-id>    Displays the comments of any valid item id. (Hence able to display multiple layers)
+
+[command-options]
+--show-stories           Displays the stories of the presented user
+--page=1                    Sets which page you would like to browse. (Default is 1)
+--size=5                    Sets the page size of the items being displayed. (Default is 5)
+
+
+
+Examples:
+---------
+1] hncli --help
+2] hncli top-stories --page=3 --size=10
+3] hncli --user=examp11
+4] hncli --user=examp11 --display-stories --page=2 --size=5
+5] hncli --display-comments=12345
+
+
+
