@@ -142,7 +142,7 @@ Usage:
 
 ## Repository
 
-Source code is available at [GitHub page](https://github.com/rishabhmalik759/hackernews-api-client).
+Source code is available at [GitHub page](https://github.com/rishabhmalik759/oop-hackernews-api.git).
 
 
 ## Contact Info
