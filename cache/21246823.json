@@ -1,0 +1,1 @@
+{"by":"pg","id":21246823,"kids":[21247825],"parent":21239792,"text":"It would not be clearer to use 1 instead of car when you were using a pair to represent a tree, rather than a list, and you were traversing the left and right branches using car and cdr.","time":1571050288,"type":"comment","createdOn":"2021-12-13T23:45:38.718","ttl":600}

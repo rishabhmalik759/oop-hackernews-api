@@ -1,0 +1,1 @@
+{"by":"pg","id":21238968,"kids":[21238985],"parent":21236475,"text":"(where (cadr x)) would be ((b c) a).<p>where tells you what to set, and setting the cadr of (a b c) means setting the car of (b c).","time":1570951567,"type":"comment","createdOn":"2021-12-13T23:45:43.518","ttl":600}

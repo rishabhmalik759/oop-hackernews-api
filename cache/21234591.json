@@ -1,0 +1,1 @@
+{"by":"pg","id":21234591,"parent":21233595,"text":"I originally did call it flip, but then I took that name for the current flip:<p><pre><code>  (def flip (f)\n    (fn args (apply f (rev args))))</code></pre>","time":1570900055,"type":"comment","createdOn":"2021-12-13T23:45:48.086","ttl":600}
